@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Process Assistant Consulting Services</title>
+		<!--[if IE]>
+			<script>
+				document.createElement('header');
+				document.createElement('nav');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('footer');
+			</script>
+		<![endif]-->
+		<style type="text/css">
+/* обнуляем все элементы */
+			* 
+				{
+				margin:0;
+				padding:0;
+				outline:none;
+				}  
+				
+/* --- Общие стили --- */ 
+			
+			html 
+				{
+				font-size:85%;
+				height:100%;
+				} 
+			body 
+				{
+				font:normal 1em/1.3 arial, helvetica, sans-serif;
+				color:#333;height:100%;
+				
+				} 
+			a 
+				{
+				color:#2b82dc;
+				}
+			
+			a:hover 
+				{
+				text-decoration:none;
+				color:#0E6994;
+				} 
+			abbr 
+				{
+				border-bottom:1px dotted #2b82dc;
+				cursor:help;
+				} 
+			h1, h2, h3, h4, h5, h6 
+									{
+									font-weight:normal;
+									line-height:1;
+									margin:4px 0 12px;
+									padding:4px;
+									color:#2ca9e4;
+									} 
+			h1 
+				{
+				font-size:1.88em;
+				} 
+			h2 + a 
+					{
+					margin-bottom:10px;
+					}
+			li 
+				{
+				margin-bottom:10px;
+				}
+			p 
+				{
+				text-align:justify;
+				word-spacing:.1ex;
+				line-height:1.6;
+				padding-left:4px;
+				margin-bottom:1em;
+				} 
+			
+			ul 
+				{
+				list-style:none;
+				
+				} 
+				
+			
+			ol 
+				{
+				list-style-position:inside;
+				}
+			
+			summary 
+					{
+					margin-left:1em;
+					font-weight:bold;
+					color: #2ca9e4;
+					}
+			form 
+				{
+				    margin: 0px;
+                    padding: 4px;
+				}
+			input[id=contact_name]
+								{
+								width: 300px;
+								padding-left:5px;
+								margin-left:99px;
+								}
+								
+			input[id=contact_email]
+								{
+								width: 300px;
+								padding-left:5px;
+								margin-left:97px;
+								}
+			input[id=contact_phone]
+								{
+								width: 300px;
+								padding-left:5px;
+								margin-left:96px;
+								}
+								
+			input[id=contact_callback]
+								{
+								width: 300px;
+								padding-left:5px;
+								margin-left:14px;
+								}
+			input[type=submit] 
+								{
+								border-radius:10px;
+								color: #2ca9e4;
+								padding:0.5em;
+								margin: 10px 0px 0px 0px;
+								}
+			/* делаем семантические тэги - блочными */ 	
+			header, nav, section, article, aside, footer 
+														{
+														display:block;
+														position:relative;
+														} 
+														
+			/* выравниваем страницу по центру, делаем отступы и цвет фона */ 			
+			#main 
+				{
+				width:950px;
+				min-height:100%;
+				padding:0 24px;
+				margin:0 auto;
+				background:#fff;
+				} 
+				
+			/* пишем класс для шапки - header */ 			
+			.h 
+				{
+				overflow:hidden;
+				height:70px;
+				padding:20px 30px 20px 0px;
+				border-bottom: 1px solid #0E6994;
+				} 
+				
+			/* меню навигации */ 
+			
+			 
+			aside a 
+					{
+					font-weight: normal;
+                    font-size: medium;
+                    text-decoration: none;
+					color: #2b82dc;
+					} 
+			aside a:hover 
+						{
+						font-weight: bold;
+						text-decoration:underline;
+						color:#0E6994;
+						} 
+			
+			/* область основного контента */ 
+			section 
+					{
+					overflow:hidden;
+					}
+					
+			
+			/* внутренняя область контента */ 
+			section section 
+							{
+
+							width:600px;
+							padding:10px 0px 20px 50px;
+							border-left: 1px dotted #0E6994;
+							} 
+							
+			/* правая часть */ 
+			aside 
+				{
+				float:left;
+				overflow:hidden;
+				width:250px;
+				padding:10px 20px 10px 0px;
+				} 
+				
+			/* нижняя часть - footer */ 
+			footer 
+					{
+					height:40px;
+					padding:25px 50px 25px 270px;
+					margin:0 0;
+					border-top:1px solid #0E6994;
+					} 
+					
+			/* стили для выделения областей HTML */ 
+			.tag 
+				{
+				position:absolute;
+				right:6px;top:2px;
+				font-size:11px;
+				font-style:normal;
+				} 
+			
+																					
+			section article .tag 
+								{
+								top:12px;
+								} 
+			article header .tag 
+								{
+								right:70px;
+								top:2px;
+								} 
+			aside .tag 
+						{
+						top:12px;
+						}
+			.image
+			        {
+					float:left;
+					overflow:hidden;
+					width:265px;
+					padding:0 60px 0 0;
+					}
+			.photo 
+					{
+					width:228px;
+					height:342px;
+					float:right;
+					padding: 0px 0px 20px 20px;
+					}
+			
+		</style>
+	</head>
+	<body background="Images/bg3.jpg"> 
+		
+		<div id="main"> <!-- Главный блок всей страницы (обертка) -->
+			
+			<!-- Тэг header  -->
+			<header class="h">
+			<h2 hidden>Logo image</h2>	
+				<img class="image" src="Images/5.jpg" alt="ProcessAssistant Banner">
+				<!--<i class="tag">&lt;section&gt;</i>-->
+				<h1>Process Assistant <br> Consulting Services</h1> 
+				<!--<i class="tag">&lt;header&gt;</i>-->
+			</header>
+			
+
+			
+
+			
+			<!-- Блок всего контента страницы -->
+			<section>
+			<h2 hidden>ProcessAssistant.by</h2>
+				<!-- Тэг правой колонки контента -->
+				<aside>
+					<!-- Тэг nav -->
+					<h2 hidden>Website navigation</h2>
+						<ul>
+							<li><a href="Freelancer.html"target="_blank"> About Me</a></li>
+							<li><a href="Services.html" target="_blank">Services</a></li>
+							<li><a href="Portfolio.html" target="_blank">HTML Practice</a></li>
+							<li><a href="Articles.html"target="_blank">Articles</a></li>
+							<li><a href="Contacts.html">Contacts</a></li>
+							
+						</ul>
+					<!--<i class="tag">&lt;nav&gt;</i>-->
+			
+					<!--<i class="tag">&lt;aside&gt;</i>-->
+				</aside>
+				<!--<i class="tag">&lt;section&gt;</i>-->
+			
+				<!-- Блок левой части контента страницы -->
+				<section>
+				<h2 hidden>Content description</h2>
+					<!-- Первая статья контента-->
+					<article>
+						<header>
+							<h2>Contacts</h2>
+							<!--<i class="tag">&lt;header&gt;</i>-->
+						</header>
+						 
+						<h3>You can find me by the info below:</h3>
+						
+								<p>Email: <a href="mailto:ProcessAssistant@gmail.com">ProcessAssistant@gmail.com</a> </p>
+								<p>Phone: <a href="tel: +375(29)111-11-11">+375(29)111-11-11</a></p>
+								<p>LinkedIn: <a href="https://www.linkedin.com/in/olga-orlovskaya-aa7b9094/" target="_blank">Profile Link</a></p>
+				
+								
+						<!--<i class="tag">&lt;article&gt;</i>-->
+					</article>
+					
+					<!-- Вторая статья контента -->
+					<article>
+						<header>
+							<h3>You have a question?</h3>
+							<!--<i class="tag">&lt;header&gt;</i>-->
+						</header>
+						<p><b>Fill in the form for a call back:</b></p>
+								<form method="post" action="mailto:olya.orlovskaya@gmail.com">
+									<label for="contact_name">Name:</label>
+									<input id="contact_name" placeholder="Enter your name" autofocus><br>
+									
+									<label for="contact_email">E-mail:</label>
+									<input type="email" id="contact_email" placeholder="Enter your e-mail"><br> 
+									
+									<label for="contact_phone">Phone:</label>
+									<input type="tel" id="contact_phone" placeholder="+(375)XX-XXX-XX-XX"><br>
+									
+									<label for="contact_callback">Best time to call you:</label>
+								    <input type="datetime" id="contact_callback" placeholder="Enter time convenient for you"><br>
+								
+									<input type="submit" value="Send Form"></label>
+								</form>
+						
+						
+						
+						<!--<i class="tag">&lt;article&gt;</i>-->
+					</article>
+					
+					
+						<!--<i class="tag">&lt;section&gt;</i>-->
+				</section> <!-- Нижняя граница левой части контента -->
+				
+				
+			</section> <!-- Нижняя граница контента -->
+			
+			<!-- Авторская часть страницы footer -->
+			<footer>
+	
+				<a href="mailto:ProcessAssistant@gmail.com">Email: ProcessAssistant@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel: +375(29)111-11-11"> тел. +375(29)111-11-11</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/olga-orlovskaya-aa7b9094/" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; 2020 All Rights Reserved by ProcessAssistant.
+				 
+				<!--<i class="tag">&lt;footer&gt;</i>-->
+		
+			</footer>
+		</div> <!-- Границы главного блока (обертки) страницы -->
+	</body>
+</html>
